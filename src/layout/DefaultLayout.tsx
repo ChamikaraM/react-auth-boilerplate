@@ -27,7 +27,7 @@ export const DefaultLayout = () => {
   };
   return (
     <App>
-      <Layout className="layout">
+      <Layout className="layout" style={{ height: "100vh", width: "100vw" }}>
         <Header style={{ display: "flex", alignItems: "center" }}>
           <AppLogo />
           <Menu
